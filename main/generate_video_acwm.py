@@ -133,7 +133,7 @@ def main(args):
             sep=config.data.params.train.params.max_sep,
             domain_name="agibotworld"
         )
-    elif args.action_path.endswuith(".npy"):
+    elif args.action_path.endswith(".npy"):
         action, delta_action = get_action_npy(
             args.action_path, args.n_chunk, chunk, n_previous,
             sep=config.data.params.train.params.max_sep,

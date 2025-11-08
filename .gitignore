@@ -134,3 +134,6 @@ runtime_vis_results/*
 
 log
 log/*
+.vscode/
+datasets/
+result_video_root/
